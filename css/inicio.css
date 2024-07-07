@@ -1,3 +1,10 @@
 table, th, td {
     border: 1px solid black;
 }
+#titulo_principal{
+    color: black;
+    width: 30%;
+    margin: auto;
+    font-size: 2em;
+    background: linear-gradient();
+}
