@@ -15,5 +15,8 @@
     <br><br>
     <input type="submit" value="Iniciar sesión">
   </form>
+
+  <a href="file:///C:/Users/sebas/Desktop/cod/ha/inicio.html">Volver al inicio.</a>
+
 </body>
 </html>

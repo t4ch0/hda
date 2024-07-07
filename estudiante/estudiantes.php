@@ -12,5 +12,7 @@
     <br><br>
     <input type="submit" value="Consultar">
   </form>
+  <br>
+<a href="http://localhost:3000/inicio.html">Volver al inicio.</a>
 </body>
 </html>

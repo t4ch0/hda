@@ -45,3 +45,7 @@ if (isset($_POST['id'])) {
     echo "No se recibió el documento a consultar.";
 }
 ?>
+
+<!-- Enlace al final del script -->
+<br>
+<a href="http://localhost:3000/estudiante/estudiantes.php">Volver a la página de estudiantes</a>

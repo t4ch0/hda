@@ -40,3 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
+
+<!-- Enlace al final del script -->
+<br>
+<a href="http://localhost:3000/inicio.html">Volver a la página de docentes.</a>
