@@ -7,4 +7,12 @@ table, th, td {
     margin: auto;
     font-size: 2em;
     background: linear-gradient();
+    text-decoration-line:underline;
+    color: blue;
+}
+#parrafo{
+    color: rgb(28, 28, 44);
+}
+#sub{
+    color: color-mix(in font-size, color orange percentage 30%, color green percentage 70%);
 }
