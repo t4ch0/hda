@@ -46,4 +46,7 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
-<a href="http://localhost:3000/docente/docentes.php">Volver a la página de docentes.</a>
+<br>
+<a href="http://localhost:3000/docente/docentes.html">Volver a la página de docentes.</a>
+<br>
+<a href="http://localhost:3000/docente/enviar.html">Ingresar nuevo registro.</a>

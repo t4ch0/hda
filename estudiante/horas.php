@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $servername = "localhost"; 
 $username = "root";
 $password = ""; 
@@ -40,4 +43,4 @@ if (isset($_POST['id'])) {
 
 <!-- Enlace al final del script -->
 <br>
-<a href="http://localhost:3000/estudiante/estudiantes.php">Volver a la página de estudiantes</a>
+<a href="http://localhost:3000/estudiante/estudiantes.html">Volver a la página de estudiantes</a>

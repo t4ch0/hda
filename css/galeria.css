@@ -1,0 +1,72 @@
+/* Estilos para la galería de fotos */
+.galeria-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.galeria-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.foto {
+    flex: 1 1 calc(25% - 20px); /* 4 columnas en grandes pantallas */
+    max-width: calc(25% - 20px);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.foto:hover img {
+    transform: scale(1.1);
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .foto {
+        flex: 1 1 calc(50% - 20px); /* 2 columnas en pantallas medianas */
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .foto {
+        flex: 1 1 100%; /* 1 columna en pantallas pequeñas */
+        max-width: 100%;
+    }
+}
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

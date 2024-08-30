@@ -1,0 +1,88 @@
+/* Estilos básicos para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la imagen de fondo */
+.background-image {
+  background: url('https://wallpaper.forfun.com/fetch/34/34ea823ba06e0bbaf330c3c658239c3e.jpeg') no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+  background-color: rgba(0, 0, 0, 0.9); 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el enlace dentro del formulario */
+form a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el encabezado */
+h2 {
+  color: #fff;
+  text-align: center;
+}

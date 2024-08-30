@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>I.E Jose Antonio Galan</title>
+    <link rel="stylesheet" href="/css/docente.css" />
 </head>
 <body>
-    <form action="2login.php" method="post">
-        <label for="id">Documento del alumno:</label>
-        <input type="number" id="id" name="id" required><br><br>
-        <label for="valor">Horas sociales:</label>
-        <input type="number" id="valor" name="horas_sociales" required><br><br>
-        <label for="valor">Horas constitucionales:</label>
-        <input type="number" id="valor" name="horas_constitucionales" required><br><br>
-        <input type="submit" value="Enviar">
-    </form>
-    <a href="http://localhost:3000/docente/docentes.php">Volver a la página de docentes.</a>
+    <div class="container">
+        <div class="background-image"></div>
+        <form action="2login.php" method="post">
+            <label for="id">Documento del alumno:</label>
+            <input type="number" id="id" name="id" required><br><br>
+            <label for="valor">Horas sociales:</label>
+            <input type="number" id="valor" name="horas_sociales" required><br><br>
+            <label for="valor">Horas constitucionales:</label>
+            <input type="number" id="valor" name="horas_constitucionales" required><br><br>
+            <input type="submit" value="Enviar"><br><br>
+            <a href="http://localhost:3000/docente/docentes.html">Volver a la página de docentes</a>
+        </form>
+    </div>
 </body>
-</html
+</html>
+

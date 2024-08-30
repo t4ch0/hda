@@ -1,18 +1,105 @@
-table, th, td {
-    border: 1px solid black;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpaper.forfun.com/fetch/34/34ea823ba06e0bbaf330c3c658239c3e.jpeg);
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
 }
-#titulo_principal{
-    color: black;
-    width: 30%;
-    margin: auto;
-    font-size: 2em;
-    background: linear-gradient();
-    text-decoration-line:underline;
-    color: blue;
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 800px;
 }
-#parrafo{
-    color: rgb(28, 28, 44);
+
+h1, h2 {
+    color: #ffdd57;
 }
-#sub{
-    color: color-mix(in font-size, color orange percentage 30%, color green percentage 70%);
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
 }
+
+a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#titulo_principal {
+    font-size: 36px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#sub {
+    font-size: 24px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#parrafo {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    color: #333;
+}
+
+th {
+    background-color: #ffdd57;
+    color: #333;
+}
+
+
+
+.botones  {
+    background-color: #2305aa;
+    border: none;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+.botones:hover {
+    background-color: #261ea3;
+}
+
+
